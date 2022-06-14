@@ -35,7 +35,7 @@ const checkWon = () =>
                     document.getElementById("result").innerText =
                     boxTexts[ele[0]].innerText +" won";
                     gameOver=true;
-                    document.querySelector("img").style.width ="100px";
+                    document.querySelector("img").style.width ="300px";
                 }
         })
 }
@@ -80,4 +80,5 @@ reset.addEventListener("click", ()=>{
  });
  player="X";
  gameOver=false;
+    document.querySelector("img").style.width ="0px";
  });
